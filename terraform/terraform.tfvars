@@ -5,6 +5,6 @@ table_name = "terraform_state_locks"
 root_domain = "aws-terraform-modules-static-webost-three.vercel.app"
 dns_record_ttl = 300
 website_bucket = "smjoshi_website"
-force_destory = false
+force_destroy = false
 index_document = "index.html"
 versioning_enabled = "Enabled"

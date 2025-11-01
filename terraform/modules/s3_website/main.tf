@@ -1,9 +1,9 @@
 resource "aws_s3_bucket" "website_bucket" {
   bucket = var.website_bucket
-  force_destroy = var.force_destory
+  force_destroy = var.force_destroy
 
   tags = {
-    Name ="Website bucket for ${var.website_bucket}"
+    Name = "Website bucket for ${var.website_bucket}"
   }
 }
 
@@ -19,7 +19,7 @@ resource "aws_s3_bucket_website_configuration" "website_config" {
   bucket = aws_s3_bucket.website_bucket.id
 
   index_document {
-    suffix = var.index_document 
+    suffix = var.index_document
   }
 }
 

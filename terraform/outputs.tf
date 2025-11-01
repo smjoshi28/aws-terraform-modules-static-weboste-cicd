@@ -15,5 +15,5 @@ output "s3_bucket_arn" {
 
 output "website_url" {
     description = "The URL of the Website"
-    value = module.s3_website.s3_bucket_url
-  }
+    value = module.s3_website.website_url
+}
