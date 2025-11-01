@@ -4,3 +4,7 @@ bucket_name = "terraform-state-bucket-sj28"
 table_name = "terraform_state_locks"
 root_domain = "aws-terraform-modules-static-webost-three.vercel.app"
 dns_record_ttl = 300
+website_bucket = "smjoshi_website"
+force_destory = false
+index_document = "index.html"
+versioning_enabled = "Enabled"
